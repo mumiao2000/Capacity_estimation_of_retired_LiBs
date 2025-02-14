@@ -1,10 +1,10 @@
 ## Introduction
 
-This repo is the official implementation for the paper: Capacity estimation of retired lithium-ion batteries using random charging segments from massive real-world data (CRPS).
+This repo is the official implementation for the paper: "[Capacity estimation of retired lithium-ion batteries using random charging segments from massive real-world data](https://doi.org/10.1016/j.xcrp.2025.102444)" ([CRPS](https://www.cell.com/cell-reports-physical-science/home)).
 
-In this study, we compiled the two largest known datasets of retired lithium-ion batteries and developed a tailored neural network model capable of directly capturing both long-term and short-term temporal patterns. By utilizing randomly segmented charging curves as input, the proposed model reduces the cost of charging-discharging tests in practical applications.
+In this study, we compile the two largest known datasets of retired lithium-ion batteries and develope a tailored neural network model capable of directly capturing both long-term and short-term temporal patterns. By utilizing randomly segmented charging curves as input, the proposed model reduces the cost of charging-discharging tests in practical applications.
 
-**NOTE!**: If you want to use our datasets, please name them as "**LINKE Dataset**" ([Lab for Intelligent Networking and Knowledge Engineering, USTC](https://linke.ustc.edu.cn)).
+**NOTE!**: If you want to use our datasets, please name them as "**LINKE Dataset 1.0**" ([Lab for Intelligent Networking and Knowledge Engineering, USTC](https://linke.ustc.edu.cn)).
 
 <p align="center">
 <img src=".\Fig\Pipeline.jpg" width = "800" height = "" alt="" align=center />
@@ -85,9 +85,18 @@ To further explore the effect of random segment length on capacity estimation, d
 
 ## Citation
 
-If you find this repo helpful, please cite our paper.
+If you find this repo helpful, please star this repo and cite our paper.
 
-
+```
+@article{zhou2025capacity,
+  title={Capacity estimation of retired lithium-ion batteries using random charging segments from massive real-world data},
+  author={Zhou, Pengfei and Liang, Junli and Liu, Yunlong and Wu, Ji and Song, Qi and Li, Xiangyang},
+  journal={Cell Reports Physical Science},
+  year={2025},
+  publisher={Elsevier},
+  doi={10.1016/j.xcrp.2025.102444}
+}
+```
 
 ## Concat
 
