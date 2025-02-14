@@ -31,6 +31,12 @@ pip install pandas numpy tqdm pytorch
 ``` bash
 unzip AOC15/data/raw_data.zip -d AOC15/data/
 unzip AOC23/data/raw_data.zip -d AOC23/data/
+
+# Optional
+unzip AOC15/data/raw_data_ori.zip -d AOC15/data/
+zip -s 0 AOC23/data/raw_data_ori.zip --out AOC23/data/raw_data_ori_.zip
+unzip AOC23/data/raw_data_ori_.zip -d AOC23/data/
+rm AOC23/data/raw_data_ori_.zip
 ```
 
 3. Change directory to AOC23 or AOC15:
