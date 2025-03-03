@@ -2,7 +2,7 @@
 
 This repo is the official implementation for the paper: "[Capacity estimation of retired lithium-ion batteries using random charging segments from massive real-world data](https://doi.org/10.1016/j.xcrp.2025.102444)" ([CRPS](https://www.cell.com/cell-reports-physical-science/home)).
 
-In this study, we compile the two largest known datasets of retired lithium-ion batteries and develope a tailored neural network model capable of directly capturing both long-term and short-term temporal patterns. By utilizing randomly segmented charging curves as input, the proposed model reduces the cost of charging-discharging tests in practical applications.
+In this study, we compile the two largest known datasets of retired lithium-ion batteries and develop a tailored neural network model capable of directly capturing both long-term and short-term temporal patterns. By utilizing randomly segmented charging curves as input, the proposed model reduces the cost of charging-discharging tests in practical applications.
 
 **NOTE!**: If you want to use our datasets, please name them as "**LINKE Dataset 1.0**" ([Lab for Intelligent Networking and Knowledge Engineering, USTC](https://linke.ustc.edu.cn)).
 
@@ -104,6 +104,6 @@ If you find this repo helpful, please star this repo and cite our paper.
 }
 ```
 
-## Concat
+## Contact
 
 If you have any questions or want to use the code, please contact pengfeizhou@mail.ustc.edu.cn
